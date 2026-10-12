@@ -1,0 +1,16 @@
+# Local/private data and exported backups
+.env
+.env.*
+*.env
+*.private.json
+.DS_Store
+
+# Legacy encrypted data / private paper files must never be committed
+/data/vault.json
+/papers/*.bin
+/papers/*.pdf
+
+# Local migration exports and backups
+/legacy-export*.json
+/legacy-paper-groups-export*.json
+/paper-groups-backup-*.json
